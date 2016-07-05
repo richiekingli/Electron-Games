@@ -27,7 +27,7 @@
   "homepage": "http://wings.io",
   "devDependencies": {
     "asar": "^0.11.0",
-    "electron-packager": "^7.0.4",
-    "electron-prebuilt": "^1.2.4"
+    "electron-packager": "^7.2.0",
+    "electron-prebuilt": "^1.2.5"
   }
 }
