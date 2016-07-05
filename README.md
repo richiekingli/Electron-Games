@@ -10,19 +10,19 @@
 
 ## Screenshots
 
-###Agar.io
+<h3 align="center"><strong>Agar.io</strong></h3>
 <img src="http://i.imgur.com/h4nzycM.png">
 
-###Diep.io
+<h3 align="center"><strong>Diep.io</strong></h3>
 <img src="http://i.imgur.com/ogfQx3C.png">
 
-###Idiots.win
+<h3 align="center"><strong>Idiots.win</strong></h3>
 <img src="http://i.imgur.com/dSKdE3A.png">
 
-###Slither.io
+<h3 align="center"><strong>Slither.io</strong></h3>
 <img src="http://i.imgur.com/PzzqYJF.png">
 
-###Wings.io
+<h3 align="center"><strong>Wings.io</strong></h3>
 <img src="http://i.imgur.com/v8unhuc.png">
 
 ## Downloads
