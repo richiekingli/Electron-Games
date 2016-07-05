@@ -24,7 +24,7 @@
   ],
   "author": "[MEADOW_DEV]",
   "license": "GNU General Public License",
-  "homepage": "https://wings.io",
+  "homepage": "http://wings.io",
   "devDependencies": {
     "asar": "^0.11.0",
     "electron-packager": "^7.0.4",
