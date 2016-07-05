@@ -1,0 +1,33 @@
+{
+  "name": "Wings.io",
+  "productName": "Wings.io",
+  "version": "1.0.1",
+  "description": "The unofficial electron app for wings.io",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package-win": "npm run build-win && npm run asar-win",
+    "package-linux": "npm run build-linux && npm run asar-linux",
+    "package-osx": "npm run build-osx && npm run asar-osx",
+    "build-win": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=win32 --arch=x64 --icon=../icon/favicon.ico --version-string.FileDescription=Wings.io",
+    "build-linux": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=linux --arch=x64 --icon=../icon/favicon.png",
+    "build-osx": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=darwin --arch=x64 --icon=../icon/favicon.icns",
+    "asar-win": "asar pack ../build/Wings.io-win32-x64/resources/app ../build/Wings.io-win32-x64/resources/app.asar && rimraf ../build/Wings.io-win32-x64/resources/app",
+    "asar-linux": "asar pack ../build/Wings.io-linux-x64/resources/app ../build/Wings.io-linux-x64/resources/app.asar && rimraf ../build/Wings.io-linux-x64/resources/app",
+    "asar-osx": "asar pack ../build/Wings.io-darwin-x64/Wings.io.app/Contents/Resources/app ../build/Wings.io-darwin-x64/Wings.io.app/Contents/Resources/app.asar && rm -rf ../build/Wings.io-darwin-x64/Wings.io.app/Contents/Resources/app"
+  },
+  "keywords": [
+    "electron",
+    "games",
+    "wings",
+    "planes"
+  ],
+  "author": "[MEADOW_DEV]",
+  "license": "GNU General Public License",
+  "homepage": "https://wings.io",
+  "devDependencies": {
+    "asar": "^0.11.0",
+    "electron-packager": "^7.0.4",
+    "electron-prebuilt": "^1.2.4"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wings!</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+        }
+
+        #webview {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <webview id='webview' src='http://wings.io/'></webview>
+    <script>
+        //Constant variable made from 'webview' ID
+        const webview = document.getElementById('webview');
+
+        // DOM ready executing scripts after the webview has loaded
+        webview.addEventListener('dom-ready', function() {
+            // If OS is Darwn(MacOS)
+            if (process.platform == 'darwin') {
+
+            }
+            
+            //Extenal Links Open in New Window | Adds Mobile Download Buttons to Menu | Adds Back Button
+            this.executeJavaScript("$('a').not('[href*=\"mailto:\"]').each(function (){var isInternalLink = new RegExp('/' + window.location.host + '/');if ( ! isInternalLink.test(this.href) ) {$(this).attr('target', '_blank');}});");
+          });
+
+        // Webview links that try to open in new window will open in default browser
+        webview.addEventListener('new-window', function(event) {
+            require('electron').shell.openExternal(event.url);
+        });
+    </script>
+</body>
+
+</html>
