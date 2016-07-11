@@ -8,6 +8,12 @@
 
 <h4 align="center">This is small list of web games running on the desktop. Built using the <a href="http://electron.atom.io/">Electron</a> framework to take the current live feed site and give it to you as a desktop app.</h4>
 
+<p align="center">
+  <a href="https://travis-ci.org/Meadowcottage/Electron-Games"><img src="https://img.shields.io/travis/Meadowcottage/Electron-Games/master.svg?style=flat-square" alt="Travis"></a>
+  <a href="https://github.com/Meadowcottage/Electron-Games/releases"><img src="https://img.shields.io/github/release/Meadowcottage/Electron-Games.svg?style=flat-square" alt="Release"></a>
+  <a href="https://github.com/Meadowcottage/Electron-Games/releases"><img src="https://img.shields.io/github/downloads/meadowcottage/Electron-Games/total.svg?style=flat-square" alt="Downloads"></a>
+</p>
+
 ## Screenshots
 
 <h3 align="center"><strong>Agar.io</strong></h3>
