@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt='Electron Games' width='256' height='256' src="https://raw.githubusercontent.com/Meadowcottage/Electron-Games/master/img/logo-512.png">
+  <img alt='Electron Games' width='256' height='256' src="https://raw.githubusercontent.com/Meadowcottage/Electron-Games/master/icon/logo-512.png">
   <br>
     Electron Games
   <br>
