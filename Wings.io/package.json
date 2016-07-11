@@ -8,9 +8,9 @@
     "dist": "npm run compile && build"
   },
   "build": {
-    "appId": "uk.meadowcottage.slitherio",
+    "appId": "uk.meadowcottage.wingsio",
     "app-category-type": "public.app-category.games",
-    "productName": "slitherio",
+    "productName": "wingsio",
     "dmg": {
       "contents": [
         {
