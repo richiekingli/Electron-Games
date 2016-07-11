@@ -1,38 +1,15 @@
 {
-  "name": "idiots.win",
-  "productName": "idiots.win",
+  "name": "Idiots.win",
+  "productName": "Idiots.win",
   "version": "1.0.1",
   "description": "The unofficial electron app for idiots.win",
+  "private": true,
   "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "package-win": "npm run build-win && npm run asar-win",
-    "package-linux": "npm run build-linux && npm run asar-linux",
-    "package-osx": "npm run build-osx && npm run asar-osx",
-    "build-win": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=win32 --arch=x64 --icon=../icon/favicon.ico --version-string.FileDescription=idiots.win",
-    "build-linux": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=linux --arch=x64 --icon=../icon/favicon.png",
-    "build-osx": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=darwin --arch=x64 --icon=../icon/favicon.icns",
-    "asar-win": "asar pack ../build/idiots.win-win32-x64/resources/app ../build/idiots.win-win32-x64/resources/app.asar && rimraf ../build/idiots.win-win32-x64/resources/app",
-    "asar-linux": "asar pack ../build/idiots.win-linux-x64/resources/app ../build/idiots.win-linux-x64/resources/app.asar && rimraf ../build/idiots.win-linux-x64/resources/app",
-    "asar-osx": "asar pack ../build/idiots.win-darwin-x64/idiots.win.app/Contents/Resources/app ../build/idiots.win-darwin-x64/idiots.win.app/Contents/Resources/app.asar && rm -rf ../build/idiots.win-darwin-x64/idiots.win.app/Contents/Resources/app"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meadowcottage/idiots.win.git"
-  },
-  "keywords": [
-    "electron",
-    "idiots.win"
-  ],
   "author": "[MEADOW_DEV]",
   "license": "GNU General Public License",
-  "bugs": {
-    "url": "https://github.com/meadowcottage/idiots.win/issues/"
-  },
-  "homepage": "https://idiots.win/",
-  "devDependencies": {
-    "asar": "^0.11.0",
-    "electron-packager": "^7.2.0",
-    "electron-prebuilt": "^1.2.5"
-  }
+  "homepage": "http://idiots.win",
+  "keywords": [
+    "electron",
+    "games"
+  ]
 }
