@@ -3,31 +3,13 @@
   "productName": "Diep.io",
   "version": "1.0.1",
   "description": "The unofficial electron app for diep.io",
+  "private": true,
   "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "package-win": "npm run build-win && npm run asar-win",
-    "package-linux": "npm run build-linux && npm run asar-linux",
-    "package-osx": "npm run build-osx && npm run asar-osx",
-    "build-win": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=win32 --arch=x64 --icon=../icon/favicon.ico --version-string.FileDescription=Diep.io",
-    "build-linux": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=linux --arch=x64 --icon=../icon/favicon.png",
-    "build-osx": "electron-packager . --overwrite --version=1.0.1 --prune --out=../build --platform=darwin --arch=x64 --icon=../icon/favicon.icns",
-    "asar-win": "asar pack ../build/Diep.io-win32-x64/resources/app ../build/Diep.io-win32-x64/resources/app.asar && rimraf ../build/Diep.io-win32-x64/resources/app",
-    "asar-linux": "asar pack ../build/Diep.io-linux-x64/resources/app ../build/Diep.io-linux-x64/resources/app.asar && rimraf ../build/Diep.io-linux-x64/resources/app",
-    "asar-osx": "asar pack ../build/Diep.io-darwin-x64/Diep.io.app/Contents/Resources/app ../build/Diep.io-darwin-x64/Diep.io.app/Contents/Resources/app.asar && rm -rf ../build/Diep.io-darwin-x64/Diep.io.app/Contents/Resources/app"
-  },
-  "keywords": [
-    "electron",
-    "games",
-    "wings",
-    "planes"
-  ],
   "author": "[MEADOW_DEV]",
   "license": "GNU General Public License",
   "homepage": "http://diep.io",
-  "devDependencies": {
-    "asar": "^0.11.0",
-    "electron-packager": "^7.2.0",
-    "electron-prebuilt": "^1.2.5"
-  }
+  "keywords": [
+    "electron",
+    "games"
+  ]
 }
