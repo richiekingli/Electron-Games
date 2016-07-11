@@ -28,7 +28,7 @@
     },
     "win": {
       "remoteReleases": "https://github.com/meadowcottage/electron-games",
-      "iconUrl": "https://github.com/Meadowcottage/Electron-Games/blob/master/Diep.io/build/icon.ico"
+      "iconUrl": "https://raw.githubusercontent.com/Meadowcottage/Electron-Games/master/Diep.io/build/icon.ico"
     }
   },
   "devDependencies": {
