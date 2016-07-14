@@ -42,7 +42,7 @@
 
 [<img width='45' height="45" align='left' alt='Github' src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">](https://github.com/Meadowcottage/Devrant.io) Feel free to help support this unofficial app by submitting issues or bugs so we can resolve and fox them or even feel free to submit pull requests if you have already helped develop a fix for one of the bugs in the app.
 
-[<img width='45' height="45" align='left' alt='Paypal' src="https://upload.wikimedia.org/wikipedia/commons/5/53/PayPal_2014_logo.svg">](https://paypal.me/meadowcottage) If you wish to support me, the author of the app, directly. Feel free to use the paypal.me link to donate.
+[<img width='45' height="45" align='left' alt='Paypal' src="https://upload.wikimedia.org/wikipedia/commons/5/53/PayPal_2014_logo.svg">](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bendixon50%40gmail%2ecom&item_name=Tip%20for%20Meadowcottage&currency_code=GBP) If you wish to support me, the author of the app, directly. Feel free to use the paypal.me link to donate.
 
 ## LICENSE:
 
