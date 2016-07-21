@@ -1,0 +1,5 @@
+language: node_js
+node_js:
+  - "node"
+script:
+  - cd Agar.io && npm install && npm test && cd ../Diep.io && npm install && npm test && cd ../Idiots.win && npm install && npm test && cd ../Slither.io && npm install && npm test && cd ../Wings.io && npm install && npm test
