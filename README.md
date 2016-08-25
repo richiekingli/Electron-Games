@@ -34,8 +34,8 @@
 
 ## Downloads
 
-  You can find all of the latest downloads for the games here:
-  [Download Here](https://github.com/Meadowcottage/Electron-Games/releases).
+  You can find all of the latest downloads for all games here:
+  <a href="https://github.com/Meadowcottage/Electron-Games/releases"><img alt='Downloads' src="https://img.shields.io/badge/DOWNLOADS-HERE-brightgreen.svg?style=flat-square"></a>
 
 ## SUPPORT
 
