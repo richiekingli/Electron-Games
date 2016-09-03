@@ -1,49 +1,46 @@
-<h1 align="center">
-  <img alt='Electron Games' width='256' height='256' src="https://raw.githubusercontent.com/Meadowcottage/Electron-Games/master/icon/logo-512.png">
-  <br>
-    Electron Games
-  <br>
-  <br>
-</h1>
+<img src="https://raw.githubusercontent.com/Meadowcottage/Electron-Games/master/icon/logo-512.png" align="left" width="192px" height="192px"/>
+<img align="left" width="0" height="192px" hspace="10"/>
 
-<h4 align="center">This is small list of web games running on the desktop. Built using the <a href="http://electron.atom.io/">Electron</a> framework to take the current live feed site and give it to you as a desktop app.</h4>
+# Electron Games
+> This is small list of web games running on the desktop. Built using the [Electron](http://electron.atom.io/) framework to take the current live feed site and give it to you as a desktop app.
 
-<p align="center">
-  <a href="https://travis-ci.org/Meadowcottage/Electron-Games"><img src="https://img.shields.io/travis/Meadowcottage/Electron-Games/master.svg?style=flat-square" alt="Travis"></a>
-  <a href="https://github.com/Meadowcottage/Electron-Games/releases"><img src="https://img.shields.io/github/release/Meadowcottage/Electron-Games.svg?style=flat-square" alt="Release"></a>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bendixon50%40gmail%2ecom&item_name=Tip%20for%20Meadowcottage&currency_code=GBP"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square" alt="Paypal"></a>
-  <a href="https://github.com/Meadowcottage/Electron-Games/releases"><img src="https://img.shields.io/github/downloads/meadowcottage/Electron-Games/total.svg?style=flat-square" alt="Downloads"></a>
-</p>
+[![Travis](https://img.shields.io/travis/Meadowcottage/Electron-Games/master.svg?style=flat-square)](https://travis-ci.org/Meadowcottage/Electron-Games) [![Appveyor](https://img.shields.io/appveyor/ci/meadowcottage/Electron-Games.svg?style=flat-square)](https://ci.appveyor.com/project/Meadowcottage/Electron-Games) [![Release](https://img.shields.io/github/release/Meadowcottage/Electron-Games.svg?style=flat-square)](https://github.com/Meadowcottage/Electron-Games/releases) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bendixon50%40gmail%2ecom&item_name=Tip%20for%20Meadowcottage&currency_code=GBP) [![Downloads](https://img.shields.io/github/downloads/meadowcottage/Electron-Games/total.svg?style=flat-square)](https://github.com/Meadowcottage/Electron-Games/releases) [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square)](http://www.gnu.org/licenses/)
 
-## Screenshots
+<br>
+<br>
 
-<h3 align="center"><strong>Agar.io</strong></h3>
-<img src="http://i.imgur.com/h4nzycM.png">
+# Screenshots
 
-<h3 align="center"><strong>Diep.io</strong></h3>
-<img src="http://i.imgur.com/ogfQx3C.png">
+[<img alt='Agar.io' src="https://i.imgur.com/h4nzycM.png">](https://github.com/Meadowcottage/Electron-Games/releases)
 
-<h3 align="center"><strong>Idiots.win</strong></h3>
-<img src="http://i.imgur.com/dSKdE3A.png">
+[<img alt='Diep.io' src="https://i.imgur.com/ogfQx3C.png">](https://github.com/Meadowcottage/Electron-Games/releases)
 
-<h3 align="center"><strong>Slither.io</strong></h3>
-<img src="http://i.imgur.com/PzzqYJF.png">
+[<img alt='Idiots.win' src="https://i.imgur.com/dSKdE3A.png">](https://github.com/Meadowcottage/Electron-Games/releases)
 
-<h3 align="center"><strong>Wings.io</strong></h3>
-<img src="http://i.imgur.com/v8unhuc.png">
+[<img alt='Slither.io' src="https://i.imgur.com/PzzqYJF.png">](https://github.com/Meadowcottage/Electron-Games/releases)
+
+[<img alt='Wings.io' src="https://i.imgur.com/v8unhuc.png">](https://github.com/Meadowcottage/Electron-Games/releases)
 
 ## Downloads
+> Downloads can be found on the [releases page](https://github.com/Meadowcottage/Electron-Games/releases)
 
-  You can find all of the latest downloads for all games here:
-  <a href="https://github.com/Meadowcottage/Electron-Games/releases"><img alt='Downloads' src="https://img.shields.io/badge/DOWNLOADS-HERE-brightgreen.svg?style=flat-square"></a>
+## Development
+
+```
+$ git clone https://github.com/Meadowcottage/Electron-Games.git
+$ cd Agar.io|Diep.io|Idiots.win|Slither.io|Wings.io
+$ npm install
+$ npm start
+$ npm run dist
+```
 
 ## SUPPORT
 
 :heart: Most of the support for this project must go to all of the web games development teams and the work they put in to make the games themselves and continue to make them fun for us to play.
 
-[<img width='45' height="45" align='left' alt='Github' src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">](https://github.com/Meadowcottage/Devrant.io) Feel free to help support this unofficial app by submitting issues or bugs so we can resolve and fox them or even feel free to submit pull requests if you have already helped develop a fix for one of the bugs in the app.
+[<img width='45' height="45" align='left' alt='Github' src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">](https://github.com/Meadowcottage/Electron-Games) Feel free to help support this unofficial app by submitting issues or bugs so we can resolve and fix them or even feel free to submit pull requests if you have already helped develop a fix for one of the bugs in the app.
 
-## LICENSE:
+## License
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
