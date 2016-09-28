@@ -1,0 +1,34 @@
+{
+  "name": "Opka.io",
+  "productName": "Opka.io",
+  "version": "1.0.1",
+  "description": "The unofficial electron app for Opka.io",
+  "private": true,
+  "main": "main.js",
+  "author": {
+    "name": "[MEADOW_DEV]",
+    "email": "bendixon50@gmail.com",
+    "url": "meadowcottage.xyz"
+  },
+  "license": "GNU General Public License",
+  "homepage": "http://Opka.io",
+  "keywords": [
+    "electron",
+    "games"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-packager . --overwrite --asar --out=dist --platform=win32 --arch=x64 --icon=icon.ico --app-bundle-id=uk.meadowcottage.Electron-games",
+    "build:mac": "electron-packager . --overwrite --asar --out=dist --platform=darwin --arch=x64 --icon=icon.icns --app-bundle-id=uk.meadowcottage.Electron-games --osx-sign",
+    "build:linux": "electron-packager . --overwrite --asar --out=dist --platform=linux --arch=x64 --icon=icon.png --app-bundle-id=uk.meadowcottage.Electron-games"
+  },
+  "dependencies": {
+    "electron-config": "^0.2.1",
+    "electron-debug": "^1.0.0",
+    "electron-dl": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^1.4.0",
+    "electron-packager": "^8.0.0"
+  }
+}
