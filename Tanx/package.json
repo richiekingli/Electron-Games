@@ -19,7 +19,7 @@
   "scripts": {
     "start": "electron .",
     "build:win": "electron-packager . --overwrite --asar --out=dist --platform=win32 --arch=x64 --icon=icon.ico --app-bundle-id=uk.meadowcottage.Electron-games",
-    "build:mac": "electron-packager . --overwrite --asar --out=dist --platform=darwin --arch=x64 --icon=icon.icns --app-bundle-id=uk.meadowcottage.Electron-games --osx-sign",
+    "build:mac": "electron-packager . --overwrite --asar --out=dist --platform=darwin --arch=x64 --icon=icon.icns --app-bundle-id=uk.meadowcottage.Electron-games",
     "build:linux": "electron-packager . --overwrite --asar --out=dist --platform=linux --arch=x64 --icon=icon.png --app-bundle-id=uk.meadowcottage.Electron-games"
   },
   "dependencies": {
